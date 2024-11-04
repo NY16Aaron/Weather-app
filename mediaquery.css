@@ -1,0 +1,57 @@
+/* Mobile Styles */
+@media (max-width: 600px) {
+    
+
+    .search input {
+        padding: 8px 20px;
+        height: 50px;
+        font-size: 16px;
+        margin-right: 10px;
+    }
+
+    .search button {
+        width: 40px;
+        height: 40px;
+    }
+
+    .search button img {
+        width: 20px;
+        padding-top: 5px;
+        justify-content: center;
+    }
+
+    .weather-icon {
+        width: 120px;
+        margin-top: 20px;
+    }
+
+    .weather h1 {
+        font-size: 50px;
+    }
+
+    .weather h2 {
+        font-size: 30px;
+        margin-top: 0;
+    }
+
+    .details {
+        flex-direction: column;
+        gap: 20px;
+        padding: 0;
+        margin-top: 30px;
+    }
+
+    .col {
+        flex-direction: row;
+        text-align: center;
+    }
+
+    .col img {
+        width: 30px;
+        margin-right: 5px;
+    }
+
+    .humidity, .wind {
+        font-size: 20px;
+    }
+}
